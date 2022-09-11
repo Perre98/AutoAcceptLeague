@@ -2,10 +2,10 @@ using System.Diagnostics;
 
 namespace AutoAcceptLeagueWithForms
 {
-    public partial class settingsForm : Form
+    public partial class SettingsForm2 : Form
     {
         string settingsPath = Environment.CurrentDirectory + "\\settings.txt";
-        public settingsForm()
+        public SettingsForm2()
         {
             this.Name = "AutoAcceptLeague Settings";
             InitializeComponent();

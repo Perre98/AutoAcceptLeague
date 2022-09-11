@@ -1,6 +1,6 @@
 ﻿namespace AutoAcceptLeagueWithForms
 {
-    partial class settingsForm
+    partial class SettingsForm2
     {
         /// <summary>
         ///  Required designer variable.
@@ -39,21 +39,21 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // txtHeight
+            // txtWidth
             // 
             this.txtWidth.Location = new System.Drawing.Point(12, 80);
-            this.txtWidth.Name = "txtHeight";
+            this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(100, 23);
             this.txtWidth.TabIndex = 0;
             this.txtWidth.Text = "1280";
             // 
-            // txtWidth
+            // txtHeight
             // 
             this.txtHeight.Location = new System.Drawing.Point(12, 130);
-            this.txtHeight.Name = "txtWidth";
+            this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(100, 23);
             this.txtHeight.TabIndex = 1;
-            this.txtHeight.Text = "960";
+            this.txtHeight.Text = "720";
             // 
             // lblWidth
             // 
@@ -123,7 +123,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "https://www.paypal.com/donate/?hosted_button_id=ZFEPBJ3QPHGW2";
             // 
-            // settingsForm
+            // SettingsForm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -137,7 +137,7 @@
             this.Controls.Add(this.lblWidth);
             this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.txtWidth);
-            this.Name = "settingsForm";
+            this.Name = "SettingsForm2";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
